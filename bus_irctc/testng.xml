@@ -3,7 +3,7 @@
 <suite name="RegressionSuite">
   <test thread-count="5" name="Test">
 	  <classes>
-		<!--   <class name="busIrctc_TestScripts.LoginAction_TC01"></class>-->
+		  <class name="busIrctc_TestScripts.LoginAction_TC01"></class>
 	 	  <class name="busIrctc_TestScripts.LogoutAction_TC02"></class>
 	  </classes>
   </test> <!-- Test -->

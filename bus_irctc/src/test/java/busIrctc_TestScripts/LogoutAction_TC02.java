@@ -30,7 +30,9 @@ public class LogoutAction_TC02 extends BaseClass{
 		Assert.assertEquals(expTitle, title);
 		System.out.println(title);
 		Thread.sleep(5000);
-		driver.findElement(By.className("fas fa-user-circle")).click();
+		driver.findElement(By.xpath("//a[@class='nav-link dropdown-toggle' and @id='dropdown11']")).click();
+		driver.findElement(By.linkText("Logout")).click();
+		System.out.println("Successfully logged out!!");
 	}
 
 }

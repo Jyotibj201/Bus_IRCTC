@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="busIrctc_TestScripts.BasicActions">
+      <class name="busIrctc_TestScripts.LogoutAction_TC02">
         <methods>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
-          <include name="basicActions_TC_01"/>
+          <include name="logoutAction"/>
         </methods>
-      </class> <!-- busIrctc_TestScripts.BasicActions -->
+      </class> <!-- busIrctc_TestScripts.LogoutAction_TC02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
